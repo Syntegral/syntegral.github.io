@@ -1,0 +1,55 @@
+* {
+	box-sizing: border-box;
+}
+body{
+	background-color: #FAFAFF;
+	margin: 0;
+	padding: 0;
+}
+
+
+ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+#header {
+	background-color: #5c5c5c;
+	position: fixed;
+	width: 100vw;
+	z-index: 10;
+	overflow: hidden;
+}
+
+
+li {
+	float: left;
+	display: block;
+}
+#logoli {
+	margin-left: 5vw;
+	margin-right: 5vw;
+}
+#Logo {
+	height: 2.1vw;
+	background-color: white;
+	text-align: center;
+	padding-right: 1vw;
+	padding-left: 1vw;
+}
+
+.index {
+	margin-right: 0.5vw;
+	font-size: 1.7vw;
+	font-family: Calibri;
+	text-decoration: none;
+	padding: 2vw;
+	letter-spacing: 0.08vw;
+	color: #f15c2e;
+	text-align: center;
+}
+.index:hover{
+	background-color: #b7734f;
+	color: #3c3c3c;
+	opacity: 0.6;
+}
